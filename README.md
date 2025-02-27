@@ -1,7 +1,6 @@
-# SearchRuler
-### 🔥 Meet searchruler: The Log Alerting Engine You Didn’t Know You Needed!
+# Kubernetes Operator for Elasticsearch Log Alerts
+### 🔥 Meet the Log Alerting Engine You Didn’t Know You Needed!
 
-<img src="https://raw.githubusercontent.com/prosimcorp/searchruler/master/docs/img/logo.png" alt="SearchRuler Logo (Main) logo." width="150">
 
 ![GitHub Release](https://img.shields.io/github/v/release/prosimcorp/searchruler)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/prosimcorp/searchruler)
@@ -9,8 +8,6 @@
 ![image pulls](https://img.shields.io/badge/+2k-brightgreen?label=image%20pulls)
 ![GitHub License](https://img.shields.io/github/license/prosimcorp/searchruler)
 
-![GitHub User's stars](https://img.shields.io/github/stars/prosimcorp?label=Prosimcorp%20Stars)
-![GitHub followers](https://img.shields.io/github/followers/prosimcorp?label=Prosimcorp%20Followers)
 
 Ever wished Prometheus Ruler had a cool cousin for log searches? Say hello to searchruler! This Kubernetes operator lets you define, run, and manage log search rules (alerts) for platforms like Elasticsearch or Opensearch—all from the comfort of your K8s cluster. 🚀
 
@@ -660,17 +657,12 @@ the process, the steps are described in the following recipe:
 ## How to collaborate
 
 This project is done on top of [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder), so read about that project
-before collaborating. Of course, we are open to external collaborations for this project. For doing it you must fork the
-repository, make your changes to the code and open a PR. The code will be reviewed and tested (always)
-
-> We are developers and hate bad code. For that reason we ask you the highest quality on each line of code to improve
-> this project on each iteration.
-
+before collaborating.
 
 
 ## License
 
-Copyright 2022.
+Copyright 2024.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
